@@ -51,6 +51,10 @@
     </dependencies>
     <build>
         <plugins>
+                 <plugin>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.1</version>
+</plugin>
             <!-- Package as an executable jar/war -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
